@@ -1,0 +1,37 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    list-style: none;
+    font-size: 18px;
+}
+
+body{
+    background-color: rgb(33, 33, 33);
+}
+
+.sidebar{
+display:flex;
+justify-content: space-between;
+border: solid yellow;
+align-items: center;
+background-color: rgb(67, 67, 67);
+height: max-content;
+}
+
+
+
+.logo {
+font-size: 45px;
+color: red;
+margin:0 2.5% ;
+}
+
+.menu{
+    display: flex;
+    color: rgb(201, 201, 201);
+    justify-content:space-between;
+    border: solid green;
+   width: 35%;
+    margin:0 2.5% ;
+   
+}
