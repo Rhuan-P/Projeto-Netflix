@@ -3,10 +3,13 @@
     padding: 0%;
     list-style: none;
     font-size: 18px;
+    text-decoration: none;
+
 }
 
 body{
     background-color: rgb(33, 33, 33);
+    color: white;
 }
 
 .sidebar{
@@ -33,5 +36,17 @@ margin:0 2.5% ;
     border: solid green;
    width: 35%;
     margin:0 2.5% ;
-   
+  
+}
+a{color: white;}
+
+
+.destaque{
+    border:solid blue;
+    height: 40vh;
+    
+    
+}
+.buttom{
+    border: solid white;
 }
