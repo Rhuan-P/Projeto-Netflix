@@ -1,15 +1,22 @@
+:root{
+--preto: rgb(33,33,33);
+--vermelho: rgb(222, 36, 36);
+--cinza: rgb(50, 50, 50);
+}
+
 *{
-    margin: 0%;
-    padding: 0%;
+    margin: 0;
+    padding: 0;
     list-style: none;
     font-size: 18px;
     text-decoration: none;
-
+    color: white;
+    box-sizing: border-box;
 }
 
 body{
-    background-color: rgb(33, 33, 33);
-    color: white;
+    background-color: var(--preto);
+    
 }
 
 .sidebar{
@@ -17,36 +24,49 @@ display:flex;
 justify-content: space-between;
 border: solid yellow;
 align-items: center;
-background-color: rgb(67, 67, 67);
-height: max-content;
+background-color: var(--cinza);
+
 }
 
 
 
 .logo {
 font-size: 45px;
-color: red;
+color: var(--vermelho);
+font-family: Tahoma, sans-serif;
+font-size: 45px ;
 margin:0 2.5% ;
 }
 
 .menu{
     display: flex;
-    color: rgb(201, 201, 201);
+
     justify-content:space-between;
     border: solid green;
-   width: 35%;
+    width: 35%;
     margin:0 2.5% ;
   
 }
-a{color: white;}
+
 
 
 .destaque{
     border:solid blue;
-    height: 40vh;
+    padding: 5px;
     
     
 }
+.card{
+    margin:auto;
+    height:40vh;
+    width: 95vw;
+}
+.card img{
+height: 100%;
+width: 100%;
+}
+
 .buttom{
-    border: solid white;
+    border: solid  whitesmoke;
+    
 }
