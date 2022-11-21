@@ -12,6 +12,7 @@
     text-decoration: none;
     color: white;
     box-sizing: border-box;
+    
 }
 
 body{
@@ -22,7 +23,7 @@ body{
 .sidebar{
 display:flex;
 justify-content: space-between;
-border: solid yellow;
+
 align-items: center;
 background-color: var(--cinza);
 
@@ -42,7 +43,7 @@ margin:0 2.5% ;
     display: flex;
 
     justify-content:space-between;
-    border: solid green;
+   
     width: 35%;
     margin:0 2.5% ;
   
@@ -53,20 +54,24 @@ margin:0 2.5% ;
 .destaque{
     border:solid blue;
     padding: 5px;
-    
-    
+    background-image: linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.800)) ,url("../IMG/capa-house.jpg");
+    background-size: cover;
+    height: 50vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
 }
 .card{
-    margin:auto;
-    height:40vh;
-    width: 95vw;
+    margin-bottom: 30px;
+    
 }
-.card img{
-height: 100%;
-width: 100%;
+.card h3{
+    font-size:50px ;
 }
 
-.buttom{
-    border: solid  whitesmoke;
-    
+
+.button{
+    color: black;
+   
 }
