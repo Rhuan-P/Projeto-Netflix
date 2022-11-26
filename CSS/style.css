@@ -67,12 +67,15 @@ margin:0 2.5% ;
     margin-bottom: 2%;
     
 }
-.card h3{
+.titulo{
     font-size:50px ;
+}
+.description{
+    font-size: 20px;
 }
 
 
-.button{
+.botao{
     color: rgb(255, 255, 255);
    background-color: rgba(0, 0, 0, 0.591);
    border: none;
@@ -80,11 +83,20 @@ margin:0 2.5% ;
    font-family: 'Arial Narrow Bold', sans-serif ;
    cursor: pointer;
    font-size: 20px;
-   transition: 1s;
+   transition: 0.5s;
 }
-.button:hover{
+.botao:hover {
     color: black;
     background-color: whitesmoke;
+    
    
    
+}
+.botao:hover i{
+    color: black;
+    
+}
+
+.destaque .wrapper{
+    width: 55%;
 }
