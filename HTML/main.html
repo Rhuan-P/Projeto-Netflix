@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projeto Netflix</title>
     <link rel="stylesheet" href="../CSS/style.css">
+    
 </head>
 <body>
 <header>
@@ -38,8 +39,37 @@
     </div>
     
     </Div>
+
+    <div class="items-wrapper">
+        
+        <div class="items" id="items">
+            <div class="item"><img class="imagem" src="../IMG/mini1.jpg" alt=""></div>
+            <div class="item"><img class="imagem" src="../IMG/mini2.jpg" alt=""></div>
+            <div class="item"><img class="imagem" src="../IMG/mini3.jpg" alt=""></div>
+            <div class="item"><img class="imagem" src="../IMG/mini4.jpg" alt=""></div>
+            <div class="item"><img class="imagem" src="../IMG/mini5.jpg" alt=""></div>
+            <div class="item"><img class="imagem" src="../IMG/mini6.jpg" alt=""></div>
+            <div class="item"><img  class="imagem"src="../IMG/mini7.jpg" alt=""></div>
+            <div class="item"><img class="imagem" src="../IMG/mini8.jpg" alt=""></div>
+            <div class="item"><img class="imagem" src="../IMG/mini9.jpg" alt=""></div>
+            <div class="item"><img class="imagem" src="../IMG/mini10.jpg" alt=""></div>
+            
+        </div>
+    </div>
+
 </main>
 <script src="https://kit.fontawesome.com/8e4a631606.js" crossorigin="anonymous"></script>
+<script>document.querySelector("#items")
+    .addEventListener("wheel", event => {
+    
+        console.log(event)
+        if (event.deltaY > 0){
+            event.target.scrollBy(300,0)
+        }
+        else{
+            event.target.scrollBy(-300,0)
+        }
+    })</script>
     
 </body>
 </html>
