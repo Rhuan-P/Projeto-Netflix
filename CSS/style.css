@@ -13,22 +13,24 @@
     color: white;
     box-sizing: border-box;
   max-width: 100%;
+  
 
     
 }
 
 body{
     background-color: var(--preto);
-  
+   
 }
 
 
 .sidebar{
 display:flex;
 justify-content: space-between;
-
+border: white solid;
 align-items: center;
 background-color: var(--cinza);
+
 
 }
 
@@ -40,18 +42,20 @@ font-size: 45px;
 color: var(--vermelho);
 font-family: Tahoma, sans-serif;
 font-size: 45px ;
-margin:0 2.5% ;
+
 }
 
 .menu{
     display: flex;
-
+width: 50%;
     justify-content:space-between;
-   
-    width: 35%;
-    margin:0 2.5% ;
-  
+  max-width: 100%;
+    margin-right: 40px;
+  border: red solid;
+  text-overflow: ellipsis;
 }
+
+
 
 
 
@@ -120,6 +124,8 @@ height: max-content;
   overflow-x: auto;
   scroll-snap-type: x mandatory ;
   -webkit-overflow-scrolling: touch;
+  scroll-behavior: smooth;
+  
     
 }
 .items::-webkit-scrollbar{

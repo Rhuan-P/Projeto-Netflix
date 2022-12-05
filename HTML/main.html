@@ -14,14 +14,14 @@
    <div> <a class="logo" href="#">NETFLIX</a> </div>
     
 
-    <ul class="menu">
-<li><a href="#">Inicio</a></li>
-<li><a href="#">Séries</a></li>
-<li><a href="#">Filmes</a></li>
-<li><a href="#">Documentarios</a></li>
+    <nav class="menu">
+<a href="#">Inicio</a>
+<a href="#">Séries</a>
+<a href="#">Filmes</a>
+<a href="#">Documentarios</a>
 
 
-    </ul>
+</nav>
 </nav>
 </header>
 <main>
@@ -69,7 +69,13 @@
         else{
             event.target.scrollBy(-300,0)
         }
-    })</script>
+    })
+    document.querySelectorAll("#items").forEach(img => {
+        img.addEventListener('mouseenter', ()=> document.body.style.overflow = 'hidden')
+        img.addEventListener('mouseleave', ()=> document.body.style.overflow = null)
+      })
+
+</script>
     
 </body>
 </html>
